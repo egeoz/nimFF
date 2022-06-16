@@ -6,12 +6,12 @@ Farbfeld Encoder and Decoder written in Nim
 farbfeld is a lossless image format which is easy to parse, pipe and compress. It has the following format:
 
 
-| Bytes | Description                             |   |   |   |
-|-------|-----------------------------------------|---|---|---|
-| 8     | "farbfeld" magic value                  |   |   |   |
-| 4     | 32-bit unsigned integer value (width)   |   |   |   |
-| 4     | 32-bit unsigned integer value (height)  |   |   |   |
-|[2222] | 4x16-bit unsigned integer values (RGBA) |   |   |   |
+| Bytes | Description                             |
+|-------|-----------------------------------------|
+| 8     | "farbfeld" magic value                  |
+| 4     | 32-bit unsigned integer value (width)   |
+| 4     | 32-bit unsigned integer value (height)  |
+|[2222] | 4x16-bit unsigned integer values (RGBA) |
 
 [More information on the Farbfeld format](https://tools.suckless.org/farbfeld/)
 
