@@ -55,7 +55,7 @@ Options:
 
 ```bash
 $ ./farbfeld image.ff           # Converts "image.ff" to "image.png".
-$ ./farbfeld image.png          # Converts "image.png" to "image.ff"
+$ ./farbfeld image.png          # Converts "image.png" to "image.ff".
 $ ./farbfeld image.ff -o ../    # Converts "image.ff" to PNG and saves it to the specified path. 
 ```
 
