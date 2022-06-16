@@ -1,4 +1,4 @@
-import binarylang, endians2, nimPNG, std/streams
+import binarylang, nimFF/endians2, nimPNG, std/streams
 
 const MAGIC_HEADER = "farbfeld"
 var height, width: uint32
