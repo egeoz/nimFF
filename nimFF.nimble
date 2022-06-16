@@ -8,3 +8,4 @@ skipDirs      = @[]
 requires: "nim >= 1.5.0"
 requires: "binarylang"
 requires: "nimPNG"
+requires: "cligen"
